@@ -52,9 +52,43 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\app\assets\" />
+    <Folder Include="app\templates\app\assets\css\" />
+    <Folder Include="app\templates\app\assets\css\images\" />
+    <Folder Include="app\templates\app\assets\css\images\ie\" />
+    <Folder Include="app\templates\app\assets\fonts\" />
+    <Folder Include="app\templates\app\assets\js\" />
+    <Folder Include="app\templates\app\assets\js\ie\" />
+    <Folder Include="app\templates\app\assets\sass\" />
+    <Folder Include="app\templates\app\assets\sass\libs\" />
     <Folder Include="Inicio\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\assets\css\font-awesome.min.css" />
+    <Content Include="app\templates\app\assets\css\ie8.css" />
+    <Content Include="app\templates\app\assets\css\ie9.css" />
+    <Content Include="app\templates\app\assets\css\images\bg.jpg" />
+    <Content Include="app\templates\app\assets\css\images\ie\footer.png" />
+    <Content Include="app\templates\app\assets\css\images\ie\footer.svg" />
+    <Content Include="app\templates\app\assets\css\images\overlay-pattern.png" />
+    <Content Include="app\templates\app\assets\css\images\overlay.svg" />
+    <Content Include="app\templates\app\assets\css\main.css" />
+    <Content Include="app\templates\app\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="app\templates\app\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="app\templates\app\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="app\templates\app\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="app\templates\app\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="app\templates\app\assets\fonts\FontAwesome.otf" />
+    <Content Include="app\templates\app\assets\js\ie\html5shiv.js" />
+    <Content Include="app\templates\app\assets\js\ie\PIE.htc" />
+    <Content Include="app\templates\app\assets\js\ie\respond.min.js" />
+    <Content Include="app\templates\app\assets\sass\ie8.scss" />
+    <Content Include="app\templates\app\assets\sass\ie9.scss" />
+    <Content Include="app\templates\app\assets\sass\libs\_functions.scss" />
+    <Content Include="app\templates\app\assets\sass\libs\_mixins.scss" />
+    <Content Include="app\templates\app\assets\sass\libs\_skel.scss" />
+    <Content Include="app\templates\app\assets\sass\libs\_vars.scss" />
+    <Content Include="app\templates\app\assets\sass\main.scss" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
@@ -79,12 +113,7 @@
     <Content Include="app\static\app\scripts\respond.js" />
     <Content Include="app\static\app\scripts\respond.min.js" />
     <Content Include="app\static\app\scripts\_references.js" />
-    <Content Include="app\templates\app\about.html" />
-    <Content Include="app\templates\app\contact.html" />
     <Content Include="app\templates\app\index.html" />
-    <Content Include="app\templates\app\layout.html" />
-    <Content Include="app\templates\app\login.html" />
-    <Content Include="app\templates\app\loginpartial.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
